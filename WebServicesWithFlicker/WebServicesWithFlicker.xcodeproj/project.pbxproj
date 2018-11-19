@@ -8,20 +8,32 @@
 
 /* Begin PBXBuildFile section */
 		34988816219F6BA800E83AC2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34988815219F6BA800E83AC2 /* AppDelegate.swift */; };
-		34988818219F6BA800E83AC2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34988817219F6BA800E83AC2 /* ViewController.swift */; };
-		3498881B219F6BA800E83AC2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34988819219F6BA800E83AC2 /* Main.storyboard */; };
+		34988818219F6BA800E83AC2 /* FlickerPhotosTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34988817219F6BA800E83AC2 /* FlickerPhotosTableViewController.swift */; };
+		3498881B219F6BA800E83AC2 /* FlickerPhotosTableViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34988819219F6BA800E83AC2 /* FlickerPhotosTableViewController.storyboard */; };
 		3498881D219F6BA900E83AC2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3498881C219F6BA900E83AC2 /* Assets.xcassets */; };
 		34988820219F6BA900E83AC2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3498881E219F6BA900E83AC2 /* LaunchScreen.storyboard */; };
+		3498882C219F6D9700E83AC2 /* PhotosModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3498882B219F6D9700E83AC2 /* PhotosModel.swift */; };
+		3498882F219F77A000E83AC2 /* FlickerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3498882E219F77A000E83AC2 /* FlickerViewModel.swift */; };
+		3498883221A08E1200E83AC2 /* PhotoDetailsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3498883121A08E1200E83AC2 /* PhotoDetailsTableViewCell.swift */; };
+		3498883521A0A1B300E83AC2 /* PhotosRealmModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3498883421A0A1B300E83AC2 /* PhotosRealmModel.swift */; };
+		A2468BCD92394151DC295E03 /* Pods_WebServicesWithFlicker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1300B1EB183CB411D6F79BC8 /* Pods_WebServicesWithFlicker.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1300B1EB183CB411D6F79BC8 /* Pods_WebServicesWithFlicker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WebServicesWithFlicker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		34988812219F6BA800E83AC2 /* WebServicesWithFlicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WebServicesWithFlicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		34988815219F6BA800E83AC2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		34988817219F6BA800E83AC2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		3498881A219F6BA800E83AC2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		34988817219F6BA800E83AC2 /* FlickerPhotosTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlickerPhotosTableViewController.swift; sourceTree = "<group>"; };
+		3498881A219F6BA800E83AC2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/FlickerPhotosTableViewController.storyboard; sourceTree = "<group>"; };
 		3498881C219F6BA900E83AC2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3498881F219F6BA900E83AC2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		34988821219F6BA900E83AC2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3498882B219F6D9700E83AC2 /* PhotosModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosModel.swift; sourceTree = "<group>"; };
+		3498882E219F77A000E83AC2 /* FlickerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlickerViewModel.swift; sourceTree = "<group>"; };
+		3498883121A08E1200E83AC2 /* PhotoDetailsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoDetailsTableViewCell.swift; sourceTree = "<group>"; };
+		3498883421A0A1B300E83AC2 /* PhotosRealmModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosRealmModel.swift; sourceTree = "<group>"; };
+		37429E820183C2DF719B18E6 /* Pods-WebServicesWithFlicker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WebServicesWithFlicker.release.xcconfig"; path = "Pods/Target Support Files/Pods-WebServicesWithFlicker/Pods-WebServicesWithFlicker.release.xcconfig"; sourceTree = "<group>"; };
+		B100C01239D9E525CFDD9B0C /* Pods-WebServicesWithFlicker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WebServicesWithFlicker.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WebServicesWithFlicker/Pods-WebServicesWithFlicker.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +41,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A2468BCD92394151DC295E03 /* Pods_WebServicesWithFlicker.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2D3B805F7E20B4A47F875883 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B100C01239D9E525CFDD9B0C /* Pods-WebServicesWithFlicker.debug.xcconfig */,
+				37429E820183C2DF719B18E6 /* Pods-WebServicesWithFlicker.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		34988809219F6BA800E83AC2 = {
 			isa = PBXGroup;
 			children = (
 				34988814219F6BA800E83AC2 /* WebServicesWithFlicker */,
 				34988813219F6BA800E83AC2 /* Products */,
+				2D3B805F7E20B4A47F875883 /* Pods */,
+				71D754838966CB765DF58D4A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,13 +79,65 @@
 			isa = PBXGroup;
 			children = (
 				34988815219F6BA800E83AC2 /* AppDelegate.swift */,
-				34988817219F6BA800E83AC2 /* ViewController.swift */,
-				34988819219F6BA800E83AC2 /* Main.storyboard */,
+				3498882D219F757D00E83AC2 /* Models */,
+				3498883321A08E1900E83AC2 /* TableViewCells */,
+				34988829219F6D4D00E83AC2 /* ViewControllers */,
+				34988830219F77AA00E83AC2 /* ViewModels */,
+				3498882A219F6D6700E83AC2 /* Storyboards */,
 				3498881C219F6BA900E83AC2 /* Assets.xcassets */,
 				3498881E219F6BA900E83AC2 /* LaunchScreen.storyboard */,
 				34988821219F6BA900E83AC2 /* Info.plist */,
 			);
 			path = WebServicesWithFlicker;
+			sourceTree = "<group>";
+		};
+		34988829219F6D4D00E83AC2 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				34988817219F6BA800E83AC2 /* FlickerPhotosTableViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		3498882A219F6D6700E83AC2 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				34988819219F6BA800E83AC2 /* FlickerPhotosTableViewController.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		3498882D219F757D00E83AC2 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3498882B219F6D9700E83AC2 /* PhotosModel.swift */,
+				3498883421A0A1B300E83AC2 /* PhotosRealmModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		34988830219F77AA00E83AC2 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				3498882E219F77A000E83AC2 /* FlickerViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		3498883321A08E1900E83AC2 /* TableViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				3498883121A08E1200E83AC2 /* PhotoDetailsTableViewCell.swift */,
+			);
+			path = TableViewCells;
+			sourceTree = "<group>";
+		};
+		71D754838966CB765DF58D4A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1300B1EB183CB411D6F79BC8 /* Pods_WebServicesWithFlicker.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +147,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 34988824219F6BA900E83AC2 /* Build configuration list for PBXNativeTarget "WebServicesWithFlicker" */;
 			buildPhases = (
+				B9380635E6FB200C357102AD /* [CP] Check Pods Manifest.lock */,
 				3498880E219F6BA800E83AC2 /* Sources */,
 				3498880F219F6BA800E83AC2 /* Frameworks */,
 				34988810219F6BA800E83AC2 /* Resources */,
+				90BE1C34816C8E47DBE6DD63 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -124,31 +202,84 @@
 			files = (
 				34988820219F6BA900E83AC2 /* LaunchScreen.storyboard in Resources */,
 				3498881D219F6BA900E83AC2 /* Assets.xcassets in Resources */,
-				3498881B219F6BA800E83AC2 /* Main.storyboard in Resources */,
+				3498881B219F6BA800E83AC2 /* FlickerPhotosTableViewController.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		90BE1C34816C8E47DBE6DD63 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-WebServicesWithFlicker/Pods-WebServicesWithFlicker-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WebServicesWithFlicker/Pods-WebServicesWithFlicker-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B9380635E6FB200C357102AD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WebServicesWithFlicker-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		3498880E219F6BA800E83AC2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				34988818219F6BA800E83AC2 /* ViewController.swift in Sources */,
+				3498883221A08E1200E83AC2 /* PhotoDetailsTableViewCell.swift in Sources */,
+				34988818219F6BA800E83AC2 /* FlickerPhotosTableViewController.swift in Sources */,
+				3498882F219F77A000E83AC2 /* FlickerViewModel.swift in Sources */,
 				34988816219F6BA800E83AC2 /* AppDelegate.swift in Sources */,
+				3498883521A0A1B300E83AC2 /* PhotosRealmModel.swift in Sources */,
+				3498882C219F6D9700E83AC2 /* PhotosModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		34988819219F6BA800E83AC2 /* Main.storyboard */ = {
+		34988819219F6BA800E83AC2 /* FlickerPhotosTableViewController.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				3498881A219F6BA800E83AC2 /* Base */,
 			);
-			name = Main.storyboard;
+			name = FlickerPhotosTableViewController.storyboard;
 			sourceTree = "<group>";
 		};
 		3498881E219F6BA900E83AC2 /* LaunchScreen.storyboard */ = {
@@ -280,6 +411,7 @@
 		};
 		34988825219F6BA900E83AC2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B100C01239D9E525CFDD9B0C /* Pods-WebServicesWithFlicker.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -297,6 +429,7 @@
 		};
 		34988826219F6BA900E83AC2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 37429E820183C2DF719B18E6 /* Pods-WebServicesWithFlicker.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
